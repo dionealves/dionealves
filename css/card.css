@@ -87,6 +87,7 @@
 	line-height: 1;
 	margin: 5px 0 0 0;
 	color: #3b393d;
+	font-weight: 700;
 }
 
 .card__container--closed .card__title {
@@ -120,6 +121,12 @@
 .card__copy img{
 	max-width: 100%;
 	height: auto;
+}
+
+.card__copy a.external{
+	color: #7B2985;
+	font-family: cursive;
+	font-weight: bold;
 }
 
 .card__btn-close {
