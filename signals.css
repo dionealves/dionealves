@@ -6,8 +6,6 @@ body {
     font-family: "Lab Grotesque", sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
-    background-color: #171718;
-    color: #d4d4d6;
   }
   
   .rtl {
@@ -113,7 +111,6 @@ body {
     max-inline-size: 25rem;
     aspect-ratio: 16 / 9;
     font-size: 2rem;
-    background: #818181;
     border-radius: 4px;
     overflow: hidden;
   }
@@ -146,4 +143,17 @@ body {
     }
   }
   
+  .ff-banner {
+    display: none;
+  }
+  
+  @-moz-document url-prefix() {
+    .ff-banner {
+      display: block;
+      padding: var(--space);
+      background-color: lightyellow;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  }
   
